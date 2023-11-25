@@ -1,0 +1,82 @@
+/* Styles for the Education component */
+
+/* Fill the extra space around the Education component with dark blue */
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.education {
+  font-family: Arial, sans-serif;
+  background-color: black; /* Dark Blue background color */
+  padding: 20px;
+  color: white; /* Neon Orange text color */
+}
+
+.education h2 {
+  color: white; /* White text color for the heading */
+}
+
+.education ul .label {
+  font-weight: bold;
+  color: white;
+}
+
+.education ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.education ul ul {
+  cursor: pointer;
+  margin-bottom: 20px;
+  background-color: black;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  border: 1px solid #06a7f7;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+
+/* Add hover effect to change text color on hover */
+.education ul ul:hover {
+  color: #06a7f7;
+}
+
+
+.education ul {
+  color: white;
+}
+
+.education ul ul.label:hover{
+  color:#06a7f7;
+}
+
+.education ul:hover {
+  background-color: black;
+  border-color: white;
+}
+
+/* Apply hover effect to text inside the box when the box is hovered */
+.education ul ul:hover p {
+  color: #06a7f7;
+}
+
+.education-item:hover h3 {
+  color: #06a7f7;
+}
+
+.education-item:hover {
+  background-color: black;
+  border-color: white;
+}
+
+
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}

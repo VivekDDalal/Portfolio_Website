@@ -1,0 +1,33 @@
+/* Styles for the overall page layout */
+.home {
+  font-family: Arial, sans-serif;
+  background-color: black; /* Dark blue background color */
+  padding: 20px;
+  text-align: center;
+  color: white; /* Text color */
+}
+
+/* Styles for the introduction section */
+.intro {
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: left;
+  padding: 20px;
+  background-color: black; /* Darker blue background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: white; /* Text color */
+  border: 1px solid #06a7f7; /* Neon Red border color */
+  border-radius: 10px;
+}
+
+.intro h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #06a7f7; /* Neon Red text color for headings */
+}
+
+.intro p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: white; /* Text color for paragraphs */
+}

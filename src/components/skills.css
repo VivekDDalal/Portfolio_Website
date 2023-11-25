@@ -1,0 +1,121 @@
+/* Styles for the Skills component */
+.skills {
+  font-family: Arial, sans-serif;
+  background-color: black; /* Dark blue background color */
+  padding: 20px;
+  color: white; /* Text color */
+}
+
+
+.skill-item {
+  cursor: pointer;
+  margin-bottom: 20px;
+  background-color: black; /* Darker blue background color */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  border: 1px solid #06a7f7; /* Neon Red border color */
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.skill-item h3 {
+  font-weight: bold;
+  color: white /* Neon Red text color for headings */;
+  margin: 0;
+  transition: color 0.3s;
+}
+
+.skill-item h3:hover{
+  font-weight: bold;
+  color: black /* Neon Red text color for headings */;
+  margin: 0;
+  transition: color 0.3s;
+}
+
+.skill-item p strong{
+  color: #06a7f7; /* #06a7f7 text color for "TOPICS" and "CERTIFICATIONS" */
+}
+
+
+/* Style the "TOPICS" and "CERTIFICATIONS" headings */
+
+.skill-item:hover {
+  color: black; /* White text color on hover */
+  background-color: #06a7f7; /* Darker blue background color on hover */
+  border-color: #fff; /* White border on hover */
+  
+}
+
+.skill-details {
+  padding: 10px;
+  background-color: black; /* Darker blue background color */
+  border: 1px solid #06a7f7; /* Neon Red border color */
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.skill-details p {
+  margin: 0;
+  padding: 0;
+  color: white; /* Text color for paragraphs */
+}
+
+.skill-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-details ul ul {
+  margin-bottom: 10px;
+  color: white; /* Text color for list items */
+}
+
+.skill-details ul li strong {
+  font-weight: bold;
+  color: #06a7f7; /* Neon Red text color for strong elements */
+}
+
+.skill-details ul ul ul {
+  padding-left: 20px;
+}
+
+.skill-details p:nth-child(3) {
+  margin-top: 10px; /* Add margin between List and Certifications */
+}
+
+.skills .a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.skills .skill-link:hover {
+  color: #06a7f7;
+}
+
+/* skills.css */
+
+.skills .certifications-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.skills .certifications-link:hover {
+  color: #06a7f7;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skills a{
+  color:white;
+}
+
+.skills a:hover{
+  color:#06a7f7
+}

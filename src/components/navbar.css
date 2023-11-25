@@ -1,0 +1,157 @@
+/* Styles for the navigation bar */
+.navbar {
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar p {
+  color: black;
+}
+
+.navbar h2 {
+  color: black;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 10px;
+}
+
+/* Add styling for the active class */
+.navbar-button.active {
+  background-color: #06a7f7; /* Set the active button's background color to green */
+  color: white; /* Set the text color to white on the active button */
+}
+
+.navbar button {
+  background-color: black;
+  color: white;
+  border: 2px solid #000;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar-button:hover {
+  background-color: black;
+  color: #06a7f7;
+  transition: all 0.3s;
+  transform: scale(1.1);
+}
+
+/* Styles for the "Contact Me" popup */
+.contact-popup {
+  background-color: black; /* Dark Blue background color */
+  padding: 20px;
+  color: white; /* Neon Orange text color */
+  border-radius: 5px;
+  border: 1px solid white; /* White border */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  max-width: 400px;
+}
+
+.contact-popup h2 {
+  color: #06a7f7; /* Neon Red text color for the heading */
+}
+
+.contact-popup p {
+  color: white; /* White text color for the content */
+}
+
+/* Style the input fields */
+.contact-popup input[type="text"],
+.contact-popup input[type="email"],
+.contact-popup textarea {
+  background-color: black; /* Darker Blue background color */
+  color: white; /* White text color for input fields */
+  border: 1px solid #06a7f7; /* Neon Orange border color */
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* Style the submit button */
+.contact-popup input[type="submit"] {
+  background-color: #06a7f7; /* Neon Red background color */
+  color: white; /* White text color for the button */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Apply hover effect to the submit button */
+.contact-popup input[type="submit"]:hover {
+  background-color: #04264a; /* Darker Blue background color on hover */
+  color: #fff; /* White text color on hover */
+  border-color: #06a7f7;
+}
+
+/* Style the close button */
+.contact-popup .close-button {
+  background-color: transparent;
+  border: 1px solid #06a7f7; /* Neon Orange border color */
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #06a7f7; /* Neon Orange text color */
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transition: border-color 0.3s, color 0.3s;
+}
+
+/* Apply hover effect to the close button */
+.contact-popup .close-button:hover {
+  border-color: #06a7f7; /* Darker Blue border color on hover */
+  color: #04264a; /* Darker Blue text color on hover */
+}
+
+.contact-popup:hover{
+  border-color: #06a7f7;
+}
+
+/* Style the close button */
+.contact-popup button {
+  background-color: transparent;
+  border: 1px solid white; /* White border */
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: white; /* White text color */
+  transition: border-color 0.3s, color 0.3s;
+}
+
+/* Apply hover effect to the close button */
+.contact-popup button:hover {
+  border-color: #06a7f7; /* Neon Orange border color on hover */
+  color: #06a7f7; /* Neon Orange text color on hover */
+}
+
+.navbar a:hover {
+  color: #06a7f7; /* Change the text color to a different color on hover (e.g., Neon Red) */
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size:x-large;
+  color: white; /* Change the text color to a different color on hover (e.g., Neon Red) */
+}
+
